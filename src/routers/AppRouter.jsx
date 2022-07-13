@@ -23,7 +23,7 @@ const AppRouter = () => {
                     <Route path='/about' element={<About />}/>
                     <Route path='/github' element={<Github />}/>
                     <Route path='/logout' element={<Logout />}/>
-                    <Route path='/*' element={<NotFound />}/>
+                    {/* <Route path='/*' element={<NotFound />}/> */}
                 </Routes>
         </BrowserRouter>
     </div>

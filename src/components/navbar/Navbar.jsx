@@ -24,7 +24,7 @@ const NavBar = () => {
             <NavLink className="a" to="/logout" onClick={handleClick}>Logout</NavLink>
           </Nav>
         </Container>) :(<Container>
-          <Navbar.Brand href="/home">Navbar</Navbar.Brand></Container>)}
+          <Navbar.Brand href="/home">NarmFood</Navbar.Brand></Container>)}
       </Navbar>
     </div>
   )
